@@ -1,9 +1,6 @@
 #include <stdio.h>
 
 int main() {
-  printf ("S.Holmes:\n");
-  printf ("%dgrad %d\'%d.%d\" N\n", 51,31,25,48);
-   printf("%d grad  %d\'%d.%d\" W\n", 0,9,29,93);
-
+  printf ("S.Holmes:\n51grad 31\'25.48\" N\n0 grad  9\'29.93\" W\n");
   return 0;
 }
