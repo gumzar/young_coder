@@ -1,11 +1,9 @@
-#include <stdio.h>
-int main(void) {
-  int a, b, res;
+#include <stdio.h> 
+int main(void){
 
-  a = 10;
-  b = 7;
+  printf("N\t10*N\t100*N\t1000*N\n\n");  
+  for (int i=1;i<=10;i++)
+    printf("%d\t%d\t%d\t%d\n",i,10*i,100*i,1000*i);
 
-  res = a + b;  
-  printf("%d + %d = %d\n", a, b, res);
-  return 0;
+  return(0);
 }
